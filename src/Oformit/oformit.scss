@@ -220,14 +220,14 @@
     }
 }
 
-@media (max-width:800px) {
+@media (max-width:900px) {
     .oformit-container {
         display        : flex;
         justify-content: center;
         width          : auto;
 
         .oformit-container-init {
-            width: 90%;
+            width: 100%;
         }
 
         .zakaz {
@@ -326,13 +326,16 @@
 
         .adress-dostavki {
             width: 100%;
+            border-radius: 10px;
         }
 
         .payment {
+            border-radius: 10px;
             width: 100%;
         }
 
         .city {
+            border-radius: 10px;
             width: 100%;
         }
 
