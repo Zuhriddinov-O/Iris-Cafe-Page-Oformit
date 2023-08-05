@@ -226,6 +226,10 @@
         justify-content: center;
         width          : auto;
 
+        .oformit-container-init {
+            width: 90%;
+        }
+
         .zakaz {
             height       : 15vh;
             border-radius: 12px;
@@ -307,10 +311,10 @@
         }
 
         .orderbtn {
-            display: flex;
+            display        : flex;
             justify-content: space-around;
-            align-items: center;
-            border-radius: 5px;
+            align-items    : center;
+            border-radius  : 5px;
         }
 
         .dannie {
@@ -323,12 +327,15 @@
         .adress-dostavki {
             width: 100%;
         }
+
         .payment {
             width: 100%;
         }
+
         .city {
             width: 100%;
         }
+
         .adress-dostavki__p1 {
             font-weight: 600;
             font-size  : 100%;
