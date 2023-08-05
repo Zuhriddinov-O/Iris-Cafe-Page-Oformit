@@ -1,0 +1,370 @@
+.oformit-container {
+    display        : flex;
+    justify-content: center;
+    width          : 1345px;
+
+    .oformit-container-init {
+        background    : none;
+        display       : flex;
+        align-items   : center;
+        flex-direction: column;
+        width         : 80%;
+    }
+
+    .zakazbtn {
+        margin-top     : 50px;
+        margin-bottom  : 50px;
+        display        : flex;
+        align-items    : center;
+        justify-content: center;
+        border         : none;
+        width          : 90%;
+        height         : 50px;
+        border-radius  : 5px;
+        background     : rgb(140, 82, 255);
+        background     : linear-gradient(90deg, rgba(140, 82, 255, 1) 0%, rgba(92, 225, 230, 1) 35%);
+    }
+
+    .zakazbtn__p {
+        font-size  : x-large;
+        font-weight: 800;
+        color      : aliceblue;
+    }
+
+    .main {
+        display        : flex;
+        flex-direction : column;
+        justify-content: center;
+        align-items    : center;
+        width          : 80%;
+    }
+
+    .zakazp2 {
+        width          : 100%;
+        display        : flex;
+        justify-content: flex-start;
+        align-items    : center;
+        font-size      : xx-large;
+        font-weight    : 800;
+        color          : aliceblue;
+    }
+
+    .zakaz {
+        display        : flex;
+        align-items    : center;
+        justify-content: space-around;
+        margin-top     : 40px;
+        width          : 100%;
+        height         : 20vh;
+        border-radius  : 10px;
+        background     : whitesmoke;
+    }
+
+    .korzinkabtn {
+        display        : flex;
+        align-items    : center;
+        justify-content: center;
+        border         : none;
+        background     : none;
+        transition     : 0.1s;
+    }
+
+    .korzinkabtn:active {
+        background-color: gray;
+        border-radius   : 30px;
+    }
+
+    .korzinkaicon {
+        width : 100%;
+        height: 60px;
+    }
+
+    .Hotdogimg {
+        width        : 100px;
+        height       : 80px;
+        border-radius: 30px;
+    }
+
+    .zakaz__p1 {
+        color    : #05c83f;
+        font-size: 250%;
+    }
+
+    .zakaz__p2 {
+        margin-top : 5px;
+        margin-left: 10px;
+    }
+
+    .zakaz__p {
+        display        : flex;
+        justify-content: center;
+        flex-wrap      : wrap;
+        width          : 13%;
+        font-size      : xx-small;
+        font-weight    : 700;
+        text-align     : center;
+    }
+
+    .orderbtn {
+        display        : flex;
+        justify-content: space-around;
+        align-items    : center;
+        width          : 20%;
+        height         : 40%;
+        background     : rgb(255, 255, 255);
+        border-radius  : 10px;
+    }
+
+    .countbtn {
+        background : none;
+        font-size  : 30px;
+        font-weight: 30%;
+        border     : none;
+    }
+
+    .dannie {
+        width: 80%;
+    }
+
+    .adress-dostavki {
+        margin         : 50px;
+        padding        : 20px;
+        gap            : 15px;
+        display        : flex;
+        justify-content: center;
+        align-items    : center;
+        flex-direction : column;
+        border-radius  : 20px;
+        background     : rgb(187, 92, 230);
+        background     : linear-gradient(0deg, rgba(187, 92, 230, 1) 47%, rgba(82, 109, 255, 1) 92%);
+    }
+
+    .payment {
+        margin         : 50px;
+        padding        : 20px;
+        gap            : 15px;
+        display        : flex;
+        justify-content: center;
+        align-items    : center;
+        flex-direction : column;
+        border-radius  : 20px;
+        background     : rgb(187, 92, 230);
+        background     : linear-gradient(0deg, rgba(187, 92, 230, 1) 47%, rgba(82, 109, 255, 1) 92%);
+    }
+
+    .city {
+        margin         : 50px;
+        padding        : 20px;
+        gap            : 15px;
+        display        : flex;
+        justify-content: center;
+        align-items    : center;
+        flex-direction : column;
+        border-radius  : 20px;
+        background     : rgb(187, 92, 230);
+        background     : linear-gradient(0deg, rgba(187, 92, 230, 1) 47%, rgba(82, 109, 255, 1) 92%);
+    }
+
+    .adress-dostavki__p1 {
+        display        : flex;
+        justify-content: center;
+        align-items    : center;
+        color          : white;
+        font-weight    : 700;
+        font-size      : 250%;
+    }
+
+    .adress-dostavki__p2 {
+        display        : flex;
+        justify-content: center;
+        align-items    : center;
+        color          : white;
+        font-weight    : 700;
+        width          : 80%;
+        height         : 40px;
+        font-size      : 23px;
+        background     : rgb(140, 82, 255);
+        background     : linear-gradient(90deg, rgba(140, 82, 255, 1) 0%, rgba(92, 225, 230, 1) 35%);
+        border-radius  : 10px;
+    }
+
+
+
+    .adress-dostavki__p3 {
+        display        : flex;
+        justify-content: center;
+        align-items    : center;
+        color          : white;
+        font-weight    : 700;
+        width          : 80%;
+        height         : 40px;
+        font-size      : 23px;
+        background     : rgb(140, 82, 255);
+        background     : linear-gradient(90deg, rgba(140, 82, 255, 1) 0%, rgba(92, 225, 230, 1) 35%);
+        border-radius  : 10px;
+
+    }
+
+    .adress-dostavki__p4 {
+        display        : flex;
+        justify-content: center;
+        align-items    : center;
+        color          : white;
+        font-weight    : 700;
+        width          : 80%;
+        height         : 40px;
+        font-size      : 23px;
+        background     : rgb(140, 82, 255);
+        background     : linear-gradient(90deg, rgba(140, 82, 255, 1) 0%, rgba(92, 225, 230, 1) 35%);
+        border-radius  : 10px;
+    }
+}
+
+@media (max-width:800px) {
+    .oformit-container {
+        display        : flex;
+        justify-content: center;
+        width          : auto;
+
+        .zakaz {
+            height       : 15vh;
+            border-radius: 12px;
+        }
+
+        .zakazbtn {
+            margin-top     : 30px;
+            margin-bottom  : 20px;
+            display        : flex;
+            align-items    : center;
+            justify-content: center;
+            border         : none;
+            width          : 90%;
+            height         : 45px;
+            border-radius  : 10px;
+            background     : rgb(140, 82, 255);
+            background     : linear-gradient(90deg, rgba(140, 82, 255, 1) 0%, rgba(92, 225, 230, 1) 35%);
+        }
+
+        .zakaz__p {
+            display        : flex;
+            justify-content: center;
+            flex-wrap      : wrap;
+            width          : 24%;
+            font-size      : 30%;
+            font-weight    : 700;
+            text-align     : center;
+        }
+
+        .zakaz__p2 {
+            font-size  : auto;
+            margin-left: 5%;
+        }
+
+        .zakazbtn__p {
+            font-size  : large;
+            font-weight: 800;
+            color      : aliceblue;
+        }
+
+        .zakazp2 {
+            width          : 100%;
+            display        : flex;
+            justify-content: flex-start;
+            align-items    : center;
+            font-size      : x-large;
+            font-weight    : 600;
+            color          : aliceblue;
+        }
+
+
+        .korzinkaicon {
+            width : 70%;
+            height: 25px;
+        }
+
+        .korzinkabtn {
+            width          : 15%;
+            display        : flex;
+            align-items    : center;
+            justify-content: center;
+            border         : none;
+            background     : none;
+            transition     : 0.1s;
+        }
+
+        .korzinkabtn:active {
+            display         : flex;
+            justify-content : center;
+            align-items     : center;
+            background-color: gray;
+            border-radius   : 50px;
+        }
+
+        .Hotdogimg {
+            width        : 30%;
+            height       : 40%;
+            border-radius: 20px;
+        }
+
+        .orderbtn {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            border-radius: 5px;
+        }
+
+        .dannie {
+            display        : flex;
+            align-items    : center;
+            justify-content: center;
+            flex-direction : column;
+        }
+
+        .adress-dostavki {
+            width: 100%;
+        }
+        .payment {
+            width: 100%;
+        }
+        .city {
+            width: 100%;
+        }
+        .adress-dostavki__p1 {
+            font-weight: 600;
+            font-size  : 100%;
+        }
+
+        .adress-dostavki__p2 {
+            font-weight  : 700;
+            width        : 80%;
+            height       : 5.5vh;
+            font-size    : 50%;
+            background   : rgb(140, 82, 255);
+            background   : linear-gradient(90deg, rgba(140, 82, 255, 1) 0%, rgba(92, 225, 230, 1) 35%);
+            border-radius: 5px;
+        }
+
+
+
+        .adress-dostavki__p3 {
+            font-weight  : 700;
+            width        : 80%;
+            height       : 5.5vh;
+            font-size    : 50%;
+            background   : rgb(140, 82, 255);
+            background   : linear-gradient(90deg, rgba(140, 82, 255, 1) 0%, rgba(92, 225, 230, 1) 35%);
+            border-radius: 5px;
+
+        }
+
+        .adress-dostavki__p4 {
+            font-weight  : 700;
+            width        : 80%;
+            height       : 5.5vh;
+            font-size    : 50%;
+            background   : rgb(140, 82, 255);
+            background   : linear-gradient(90deg, rgba(140, 82, 255, 1) 0%, rgba(92, 225, 230, 1) 35%);
+            border-radius: 5px;
+        }
+    }
+}

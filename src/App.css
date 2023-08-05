@@ -1,0 +1,33 @@
+* {
+  margin     : 0;
+  padding    : 0;
+  box-sizing : border-box;
+  font-family: Raleway;
+}
+
+* {
+  margin         : 0px;
+  padding        : 0px;
+  scroll-behavior: smooth;
+  box-sizing     : border-box;
+}
+
+a {
+  font-weight    : 500;
+  color          : #FFFFFF;
+  text-decoration: inherit;
+}
+
+a:hover {
+  color: rgb(128, 128, 206);
+}
+
+body {
+  display        : flex;
+  justify-content: center;
+  min-width      : 320px;
+  min-height     : 100vh;
+  color          : #000000;
+  background: rgb(82,109,255);
+  background: linear-gradient(90deg, rgba(82,109,255,1) 36%, rgba(187,92,230,1) 76%);
+}

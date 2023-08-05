@@ -1,0 +1,50 @@
+.navbar{
+    width: 97%;
+    max-width: 1400px;
+    height: 150px;
+    margin: 1rem 1rem 1rem 1rem;
+    padding: 0 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #fff;
+    border-radius: 20px;
+    gap: 10px;
+
+    // navs
+    &__navs{
+        // border: 1px solid red;
+        width: 87%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        li{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            background-color: #9402C4;
+            border-radius: 30px;
+            padding: 0.7rem 1.5rem;
+        }
+
+        a{
+            color: #fff;
+            font-size: 1.6rem;
+        }
+    }
+
+    // tell
+    &__tell{
+        // border: 1px solid red;
+        width: 27%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        p{
+            font-size: 1.7rem;
+            font-weight: 600;
+            color: #9402C4;
+        }
+    }
+}
